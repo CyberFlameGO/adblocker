@@ -162,6 +162,7 @@ hot-cartoon.com,richhioon.eu,wowstream.top##+js(aopr, BetterJsPop)
 123movieshd.*##+js(aopr, mm)
 123movieshd.*##+js(set, p18, undefined)
 cfake.com###over
+theyarehuge.com##+js(acs, Object.defineProperty, clickHandler)
 
 ! 123movies4u. site => player eplayvid. net popups
 porntry.com##.js-mob-popup
@@ -564,10 +565,8 @@ elektrikmen.com##+js(aopr, b2a)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71877
 ||wheelwheel.space^$3p
 
-! https://github.com/uBlockOrigin/uAssets/issues/8467
-cybermania.ws##+js(nostif, Modal)
-@@||cybermania.ws^$ghide
-cybermania.ws##ins.adsbygoogle
+! https://github.com/uBlockOrigin/uAssets/issues/17102
+cybermania.ws##+js(noeval-if, show)
 *$script,redirect-rule=noopjs,domain=cybermania.ws
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72239
@@ -637,9 +636,6 @@ okteve.com##+js(acis, String.fromCharCode, marginheight)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72470
 aporasal.net##+js(adfly-defuser)
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/72499
-musike.net##+js(nostif, show)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72490
 squirtplus.com#@#.adsBanner
@@ -1028,10 +1024,10 @@ yifytorrentme.com##+js(nowoif)
 ! https://github.com/uBlockOrigin/uAssets/issues/8544
 unblocked.name##+js(aopr, GetWindowHeight)
 unblocked.name##+js(aopr, decodeURIComponent)
-unblocked.name,unblockit.ltd##+js(acis, adcashMacros)
-unblocked.name,unblockit.ltd##[style*="decoration"]:not([style^="width"])
-unblocked.name,unblockit.ltd##.cborz-bordered
-unblocked.name,unblockit.ltd##.durs-bordered
+unblocked.name##+js(acis, adcashMacros)
+unblocked.name##[style*="decoration"]:not([style^="width"])
+unblocked.name##.cborz-bordered
+unblocked.name##.durs-bordered
 unblocked.name##+js(aost, Math.random, )
 unblocked.name##[id^="cookie"]
 ||unblocked.name/zpp/*$script,domain=unblocked.name
@@ -2902,7 +2898,7 @@ watchmovierulz.*##+js(nowoif)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9155
 ! streamsb_galaxy
-anigogo.net,animepl.xyz,arslanrocky.xyz,cloudemb.com,dlmovies.link,embedsb.com,faptiti.com,fbgo.*,gdpress.xyz,goana.xyz,gomovizplay.com,hlsplayer.xyz,javplaya.com,oxl.one,playersb.com,sbanh.com,sbchill.com,sbchip.*,sbcloud1.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbfast.com,sbflix.*,sbfull.com,sbhight.com,sblanh.com,sblongvu.com,sbplay.*,sbplay1.com,sbplay2.*,sbplay3.*,sbrity.com,sbrulz.*,sbspeed.com,sbthe.com,sbvideo.*,ssbstream.net,streamsb.*,streamsss.net,subsb.net,tubesb.com,vidmovie.xyz,view345.com,viewsb.com,watchsb.com,xvideostream.net##+js(aopr, __Y)
+anigogo.net,animepl.xyz,arslanrocky.xyz,cloudemb.com,dlmovies.link,embedsb.com,faptiti.com,fbgo.*,gdpress.xyz,goana.xyz,gomovizplay.com,hlsplayer.xyz,javplaya.com,oxl.one,playersb.com,sbanh.com,sbbrisk.com,sbchill.com,sbchip.*,sbcloud1.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbfast.com,sbflix.*,sbfull.com,sbhight.com,sblanh.com,sblongvu.com,sbplay.*,sbplay1.com,sbplay2.*,sbplay3.*,sbrity.com,sbrulz.*,sbspeed.com,sbthe.com,sbvideo.*,ssbstream.net,streamsb.*,streamsss.net,subsb.net,tubesb.com,vidmovie.xyz,view345.com,viewsb.com,watchsb.com,xvideostream.net##+js(aopr, __Y)
 anigogo.net,arslanrocky.xyz,cloudemb.com,dlmovies.link,embedsb.com,fbgo.*,gdpress.xyz,gomovizplay.com,hlsplayer.xyz,oxl.one,playersb.com,sbanh.com,sbbrisk.com,sbchill.com,sbchip.*,sbcloud1.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbfast.com,sbflix.*,sbfull.com,sbhight.com,sblanh.com,sblongvu.com,sbplay.*,sbplay1.com,sbplay2.*,sbplay3.*,sbrity.com,sbrulz.*,sbspeed.com,sbthe.com,sbvideo.net,ssbstream.net,streamsb.*,streamsss.net,subsb.net,tubesb.com,vidmovie.xyz,view345.com,viewsb.com,watchsb.com##+js(aopr, mm)
 sbembed1.com,sbvideo.*##+js(aopr, console.clear)
 cloudemb.com##+js(nowoif, !/^\/d\//)
@@ -2913,6 +2909,8 @@ sbembed.com,streamsb.*##body > div[style*="z-index:"]
 sbplay.*,sbplay1.com##+js(set, console.clear, noopFunc)
 oxl.one,sbplay1.com,sbvideo.net##+js(nosiif, 0x)
 sbplay.*##^script:has-text(debugger)
+! https://github.com/uBlockOrigin/uAssets/issues/17141
+cloudemb.com##+js(set, isadb, false)
 ||app.adjust.net.in^
 ||abusageqh.com^
 ||bb5gt41h.cfd^
@@ -2994,15 +2992,22 @@ pussy.org##+js(nowoif)
 analsexstars.com##+js(nowoif)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9237
+! https://github.com/uBlockOrigin/uAssets/issues/17085
 *$xhr,redirect-rule=nooptext,domain=chiemgau24.de|ovb-online.de|rosenheim24.de|bgland24.de|innsalzach24.de|mangfall24.de|wasserburg24.de
 @@*$ghide,domain=chiemgau24.de|ovb-online.de|rosenheim24.de|bgland24.de|innsalzach24.de|mangfall24.de|wasserburg24.de
-chiemgau24.de,ovb-online.de,rosenheim24.de,bgland24.de,innsalzach24.de,mangfall24.de,wasserburg24.de##.id-Article-advert
-chiemgau24.de,ovb-online.de,rosenheim24.de,bgland24.de,innsalzach24.de,mangfall24.de,wasserburg24.de##div[data-id-advertdfpconf]
-chiemgau24.de,rosenheim24.de,bgland24.de,innsalzach24.de,mangfall24.de,wasserburg24.de##.AD-POST
+pc-offer$script,domain=bgland24.de|chiemgau24.de|innsalzach24.de|mangfall24.de|rosenheim24.de|wasserburg24.de
+bgland24.de,chiemgau24.de,innsalzach24.de,mangfall24.de,rosenheim24.de,wasserburg24.de##div.id-StoryElement-beepWrap
+bgland24.de,chiemgau24.de,innsalzach24.de,mangfall24.de,rosenheim24.de,wasserburg24.de##.wv_story_el_cleverPushWidget
+bgland24.de,chiemgau24.de,innsalzach24.de,mangfall24.de,rosenheim24.de,wasserburg24.de##.id-Recommendation
+bgland24.de,chiemgau24.de,innsalzach24.de,mangfall24.de,rosenheim24.de,wasserburg24.de##.wv_story_el_pinpoll
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/nnesag/some_anime_popup_window_on_this_website/
+! https://www.reddit.com/r/uBlockOrigin/comments/11oyjo9/
 swatchseries.ru##+js(acis, onclick, open)
 swatchseries.ru##+js(set, console.clear, noopFunc)
+swatchseries.ru##+js(aopr, mm)
+swatchseries.ru##+js(nowoif)
+||steakdeteriorate.com^
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/84282
 *$script,3p,denyallow=facebook.net|fbcdn.net,domain=sukidesuost.info
@@ -3866,7 +3871,7 @@ mylinkconverter.com##a[href^="https://go.nordvpn.net/aff"] > img
 
 ! https://github.com/orgs/uBlockOrigin/teams/ublock-filters-volunteers/discussions/356
 asyadrama.com,bitcoinegypt.news,citychilli.com,talkjarvis.com##+js(nostif, css_class.show)
-cardiagn.com,conhecimentolivre.net,furioscans.com,kostenloseklingeltone.com,routech.ro##+js(acis, eval, replace)
+cardiagn.com,routech.ro##+js(acis, eval, replace)
 privatemoviez.*##+js(aeld, DOMContentLoaded, adsBlocked)
 privatemoviez.*##+js(nostif, magnificPopup)
 routech.ro##+js(nostif, blur)
@@ -4925,7 +4930,9 @@ fifaultimateteam.it##+js(nowoif)
 fifaultimateteam.it##.ai_widget
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10096
+! https://www.reddit.com/r/uBlockOrigin/comments/11lxfy3/
 itopmusic.com,itopmusicx.com##+js(aopr, absda)
+*$xhr,redirect-rule=noop.txt,domain=itopmusic.com|itopmusicx.com
 
 ! https://github.com/FastForwardTeam/FastForward/issues/98
 bshopme.site##+js(nosiif, visibility, 1000)
@@ -5372,14 +5379,6 @@ freevpn4you.net##.adsbygoogle:upward(1)
 vevioz.com##+js(aopr, app_vars.force_disable_adblock)
 vevioz.com##+js(aopr, open)
 vevioz.com##+js(set, blurred, false)
-
-! dailynewstoknow. com anti adb
-dailynewstoknow.com##+js(no-fetch-if, googlesyndication)
-dailynewstoknow.com##+js(nostif, showModal)
-dailynewstoknow.com##+js(nano-sib, timer)
-dailynewstoknow.com###wpsafe-wait2
-dailynewstoknow.com###wpsafe-link:style(display:block !important)
-dailynewstoknow.com###text-2
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/qg1yu7/this_website_showing_popup_when_playing_videos/
 fplayer.info##+js(aopr, __Y)
@@ -5874,6 +5873,7 @@ nowtolove.com.au##.page__content-header:style(height: 50px !important)
 .com/script/compatibility.js|$3p
 .org/script/compatibility.js|$3p
 .com/script/foundation.js|$3p
+.com/script/npa2.min.js|$3p
 ||flvpcdnb.com^
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10506
@@ -6220,6 +6220,8 @@ soccerufc.xyz##+js(aopw, _pop)
 ! https://forums.lanik.us/viewtopic.php?t=47015
 itdmusics.com##+js(aeld, load, onload)
 itdmusics.com##+js(aopw, _pop)
+itdmusics.com##+js(acs, eval, replace)
+||prplads.com^$3p
 
 ! https://forums.lanik.us/viewtopic.php?t=47016
 @@||itopmusic.org^$ghide
@@ -6647,18 +6649,8 @@ chortle.co.uk,coloring.ws,dltk-holidays.com,dltk-kids.com,kidzone.ws,pcsteps.com
 ##.ad-unit:not(.text-ad)
 ##.ad_unit:not(.text-ad)
 ||doubleclick.net^$xhr,redirect-rule=noop.txt
-||media.fastclick.net^$xhr,redirect-rule=noop.txt
-||ads.facebook.com^$xhr,redirect-rule=noop.txt
-||advice-ads.s3.amazonaws.com^$xhr,redirect-rule=noop.txt
-||ads.youtube.com^$xhr,redirect-rule=noop.txt
-||ads.reddit.com^$xhr,redirect-rule=noop.txt
-||ads-api.twitter.com^$xhr,redirect-rule=nooptext,3p
-||ads.pinterest.com^$xhr,redirect-rule=noop.txt
-||adversal.com^$xhr,redirect-rule=noop.txt
-||sovrn.com^$xhr,redirect-rule=noop.txt
-||ads.tiktok.com^$xhr,redirect-rule=noop.txt
-||propellerads.com^$xhr,redirect-rule=noop.txt
-||infolinks.com^$xhr,redirect-rule=noop.txt
+||com/|$xhr,3p,redirect-rule=noop.txt
+||net/|$xhr,3p,redirect-rule=noop.txt
 ! CHP Pro
 mymusicreviews.com,thechat.cafe##+js(aopr, chp_adblock_browser)
 
